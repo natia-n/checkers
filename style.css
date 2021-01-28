@@ -1,0 +1,26 @@
+.drag-drop{
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;   
+}
+
+.drag-drop div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.drag-drop img{
+    width: 70%;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.black{
+    background-color: #7e5e38;
+}
+
+.wtite{
+    background-color:  #ebcea6;
+}
