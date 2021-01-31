@@ -5,10 +5,11 @@
     grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;   
 }
 
-.drag-drop div{
+.drag-drop .tile{
     width: 100px;
     height: 100px;
     display: inline-block;
+    position: relative;
 }
 
 .drag-drop img{
@@ -18,9 +19,30 @@
 }
 
 .black{
-    background-color: #7e5e38;
+    background-color: #7b5b35;
 }
 
-.wtite{
+.white{
     background-color:  #ebcea6;
+}
+
+.figure{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    cursor: pointer;
+}
+
+.figure.figure-white {
+    background-color: white;
+    box-shadow: 1px 1px 0px #333;    
+}
+
+.figure.figure-black {
+    background-color: black;
+    box-shadow: 1px 1px 0px #ccc;
 }
